@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 300" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1180" height="300" fill="#ffffff"/>
+  <text x="590" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111">How OpenGene is built</text>
+
+  <g font-size="15" fill="#111">
+    <rect x="40" y="90" width="300" height="110" rx="10" fill="#eef4ff" stroke="#33507e" stroke-width="2"/>
+    <text x="190" y="128" text-anchor="middle" font-weight="bold">Interface (React / TypeScript)</text>
+    <text x="190" y="154" text-anchor="middle" font-size="13">circular + linear maps, sequence view</text>
+    <text x="190" y="174" text-anchor="middle" font-size="13">never edits raw sequence strings</text>
+
+    <rect x="440" y="90" width="300" height="110" rx="10" fill="#fff3e6" stroke="#8a5a1d" stroke-width="2"/>
+    <text x="590" y="128" text-anchor="middle" font-weight="bold">Structured operations (REST API)</text>
+    <text x="590" y="154" text-anchor="middle" font-size="13">insert · delete · annotate ·</text>
+    <text x="590" y="174" text-anchor="middle" font-size="13">design primers · digest</text>
+
+    <rect x="840" y="90" width="300" height="110" rx="10" fill="#eaf7ea" stroke="#2e6b2e" stroke-width="2"/>
+    <text x="990" y="128" text-anchor="middle" font-weight="bold">Engine (Python + Biopython)</text>
+    <text x="990" y="154" text-anchor="middle" font-size="13">validates every operation, keeps</text>
+    <text x="990" y="174" text-anchor="middle" font-size="13">features, primers + traces consistent</text>
+  </g>
+
+  <g stroke="#111" stroke-width="2.5" fill="#111">
+    <line x1="340" y1="145" x2="432" y2="145"/>
+    <polygon points="432,145 420,138 420,152"/>
+    <line x1="740" y1="145" x2="832" y2="145"/>
+    <polygon points="832,145 820,138 820,152"/>
+  </g>
+
+  <rect x="340" y="228" width="500" height="40" rx="8" fill="#f2f2f2" stroke="#666"/>
+  <text x="590" y="254" text-anchor="middle" font-size="14" fill="#111">Everything runs locally — no account, no server, nothing uploaded</text>
+</svg>
